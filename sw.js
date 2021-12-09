@@ -11,7 +11,7 @@ self.addEventListener('install', event =>{
     const cacheAppShell = caches.open(CACHE_APP_SHELL).then(cache => {
         return cache.addAll([
             '/',
-            'index.php',
+            'index.html',
             'pages/carrito.php',
             'pages/cuenta.php',
             'css/estilo.css',
